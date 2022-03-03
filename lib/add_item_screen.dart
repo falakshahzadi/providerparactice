@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:providerparactice/ItemAddNotifier.dart';
+import 'package:providerparactice/item_add_notifier.dart';
 class AddItemScreen extends StatefulWidget {
   const AddItemScreen({
     Key? key,

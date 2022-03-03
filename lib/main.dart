@@ -3,8 +3,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:providerparactice/HomeScreen.dart';
-import 'ItemAddNotifier.dart';
+import 'package:providerparactice/home_screen.dart';
+import 'item_add_notifier.dart';
 
 
 void main() => runApp(const MyApp());
