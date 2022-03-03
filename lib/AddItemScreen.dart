@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:providerparactice/ItemAddNotifier.dart';
 class AddItemScreen extends StatefulWidget {
-  AddItemScreen({
+  const AddItemScreen({
     Key? key,
   }) : super(key: key);
 
@@ -25,21 +25,21 @@ class _AddItemScreenState extends State<AddItemScreen> {
         title: Text(title),
       ),
       body: Container(
-        padding: EdgeInsets.all(30.0),
+        padding: const EdgeInsets.all(30.0),
         child: Column(
           children: <Widget>[
             TextField(
               controller: _itemNameController,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 contentPadding: EdgeInsets.all(15.0),
                 hintText: 'Item Name',
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
             RaisedButton(
-              child: Text('ADD ITEM'),
+              child: const Text('ADD ITEM'),
               onPressed: () async {
                 if (_itemNameController.text.isEmpty) {
                   return;

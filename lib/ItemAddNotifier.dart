@@ -3,10 +3,10 @@ import 'Item.dart';
 
 class ItemAddNotifier extends ChangeNotifier {
   //
-  List<Item> itemList = [];
+  List<Item>? itemList = [];
   addItem(String itemName) async {
     Item item = Item(itemName);
-    itemList.add(item);
+    itemList!.add(item);
     notifyListeners();
   }
 }

@@ -6,7 +6,7 @@ import 'ItemAddNotifier.dart';
 
 class HomeScreen extends StatefulWidget {
 
- HomeScreen({
+ const HomeScreen({
     Key? key,
   }) : super(key: key);
 
@@ -17,7 +17,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   
- late String ItemAddNotifier;
+//  late String ItemAddNotifier;
  @override
  void initState(){
    Provider.of<ItemAddNotifier>(context).itemList = null;
@@ -28,17 +28,17 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home'),
+        title: const Text('Home'),
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.add),
+            icon: const Icon(Icons.add),
             onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
                   fullscreenDialog: true,
                   builder: (context) {
-                    return AddItemScreen();
+                    return const AddItemScreen();
                   },
                 ),
               );
@@ -47,20 +47,20 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       body: Container(
-        padding: EdgeInsets.all(30.0),
+        padding: const EdgeInsets.all(30.0),
         child: Column(
           children: <Widget>[
             Expanded(
               child: Consumer<ItemAddNotifier>(
                 builder: (context, itemAddNotifier, _) {
                   return ListView.builder(
-                    itemCount: itemAddNotifier.itemList.length,
+                    itemCount: itemAddNotifier.itemList!.length,
                     itemBuilder: (context, index) {
                       return Padding(
-                        padding: EdgeInsets.all(15.0),
+                        padding: const EdgeInsets.all(15.0),
                         child: Text(
-                          itemAddNotifier.itemList[index].itemName,
-                          style: TextStyle(
+                          itemAddNotifier.itemList![index].itemName,
+                          style: const TextStyle(
                             fontSize: 20.0,
                             color: Colors.black,
                           ),

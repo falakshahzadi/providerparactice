@@ -1,6 +1,5 @@
 // ignore_for_file: deprecated_member_use
 
-import 'dart:js';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       create: (BuildContext context) {
         return ItemAddNotifier();
       },
-      child: MaterialApp(
+      child: const MaterialApp(
        debugShowCheckedModeBanner: false,
        home:  HomeScreen(),
          
