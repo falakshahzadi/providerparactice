@@ -8,9 +8,11 @@ import 'package:providerparactice/HomeScreen.dart';
 import 'ItemAddNotifier.dart';
 
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
