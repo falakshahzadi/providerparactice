@@ -5,56 +5,84 @@ packages:
     dependency: transitive
     description:
       name: async
-      url: "https://pub.dartlang.org"
+      url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.8.2"
   boolean_selector:
     dependency: transitive
     description:
       name: boolean_selector
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "2.1.0"
   characters:
     dependency: transitive
     description:
       name: characters
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.2.0"
   charcode:
     dependency: transitive
     description:
       name: charcode
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.3.1"
   clock:
     dependency: transitive
     description:
       name: clock
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.1.0"
   collection:
     dependency: transitive
     description:
       name: collection
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.15.0"
   cupertino_icons:
     dependency: "direct main"
     description:
       name: cupertino_icons
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.0.4"
   fake_async:
     dependency: transitive
     description:
       name: fake_async
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.2.0"
   flutter:
@@ -66,7 +94,11 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.0.4"
   flutter_test:
@@ -78,49 +110,79 @@ packages:
     dependency: transitive
     description:
       name: lints
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.0.1"
   matcher:
     dependency: transitive
     description:
       name: matcher
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "0.12.11"
   material_color_utilities:
     dependency: transitive
     description:
       name: material_color_utilities
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "0.1.3"
   meta:
     dependency: transitive
     description:
       name: meta
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.7.0"
   nested:
     dependency: transitive
     description:
       name: nested
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.0.0"
   path:
     dependency: transitive
     description:
       name: path
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.1"
+=======
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.8.0"
+>>>>>>> master
   provider:
     dependency: "direct main"
     description:
       name: provider
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "6.0.2"
   sky_engine:
@@ -132,58 +194,96 @@ packages:
     dependency: transitive
     description:
       name: source_span
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.8.1"
   stack_trace:
     dependency: transitive
     description:
       name: stack_trace
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.10.0"
   stream_channel:
     dependency: transitive
     description:
       name: stream_channel
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "2.1.0"
   string_scanner:
     dependency: transitive
     description:
       name: string_scanner
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.1.0"
   term_glyph:
     dependency: transitive
     description:
       name: term_glyph
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.2.0"
   test_api:
     dependency: transitive
     description:
       name: test_api
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.9"
+=======
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.4.8"
+>>>>>>> master
   typed_data:
     dependency: transitive
     description:
       name: typed_data
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
+=======
+      url: "https://pub.flutter-io.cn"
+>>>>>>> master
     source: hosted
     version: "1.3.0"
   vector_math:
     dependency: transitive
     description:
       name: vector_math
+<<<<<<< HEAD
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
 sdks:
   dart: ">=2.17.0-69.2.beta <3.0.0"
+=======
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.1.1"
+sdks:
+  dart: ">=2.16.0 <3.0.0"
+>>>>>>> master
   flutter: ">=1.16.0"
